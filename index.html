@@ -2,32 +2,54 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Verificación de Certificados</title>
+    <title>Certificado de Calidad</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: #f4f4f4;
-            text-align: center;
+            background-color: #f2f2f2;
             padding: 40px;
         }
-        .card {
+        .container {
+            max-width: 800px;
             background: white;
-            padding: 30px;
-            max-width: 600px;
             margin: auto;
+            padding: 30px;
             border-radius: 10px;
+            text-align: center;
         }
-        img {
-            max-width: 200px;
+        .logo {
+            max-width: 220px;
+            margin-bottom: 20px;
+        }
+        .cert-img {
+            max-width: 100%;
+            border: 1px solid #ccc;
+            margin-top: 20px;
+        }
+        .info {
+            text-align: left;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
 
-<div class="card">
-    <img src="logo.png" alt="Logo Empresa">
-    <h1>Certificados Oficiales</h1>
-    <p>Use el enlace del QR para verificar un certificado.</p>
+<div class="container">
+    <img src="logo.png" alt="Logo de la empresa" class="logo">
+
+    <h1>Certificado de Calidad</h1>
+    <p>Este documento certifica que la empresa cumple con los estándares de calidad establecidos.</p>
+
+    <div class="info">
+        <p><strong>Empresa:</strong> EXTINOFF </p>
+        <p><strong>Certificación:</strong> Certificado de habilitacion de taller de recarga de extintores</p>
+        <p><strong>Entidad emisora:</strong> ORGANISMO CERTIFICADOR IBNORCA</p>
+        <p><strong>Fecha de emisión:</strong> 29/05/2025</p>
+        <p><strong>Vigencia:</strong> 28/05/2026</p>
+    </div>
+
+    <h3>Certificado Digital</h3>
+    <img src="certificado.png" alt="Certificado de Calidad" class="cert-img">
 </div>
 
 </body>
